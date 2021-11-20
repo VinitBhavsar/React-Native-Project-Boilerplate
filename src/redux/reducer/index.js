@@ -22,9 +22,7 @@ const rootReducer = (state, action) => {
       AsyncStorage.removeItem(`persist:${key}`);
     });
     AsyncStorage.removeItem('userToken');
-    state.general = undefined;
     state.login = undefined;
-    state.gallery = undefined;
   }
   return allReducers(state, action);
 };

@@ -17,8 +17,6 @@ class LoginScreen extends Component {
   constructor(props) {
     super(props);
     this.state = this.initialState;
-    this.inputRefs = {};
-    this.state = this.initialState;
   }
 
   get initialState() {

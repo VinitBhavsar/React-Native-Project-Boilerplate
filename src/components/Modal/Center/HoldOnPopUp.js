@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {View, StyleSheet, Text, Dimensions} from 'react-native';
 import Modal from 'react-native-modal';
-import {Colors, Fonts} from '../../../constants';
+import {Fonts} from '../../../constants';
 import {Button} from '../../Buttons/Button';
 
 class HoldOnPopUp extends Component {

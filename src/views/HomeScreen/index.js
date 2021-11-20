@@ -6,8 +6,6 @@ import {
   ScrollView,
 } from 'react-native';
 import { connect } from 'react-redux';
-import AsyncStorage from '@react-native-community/async-storage';
-import { showToastMessage } from '../../utils';
 
 class HomeScreen extends Component {
   constructor(props) {
@@ -39,7 +37,6 @@ const styles = StyleSheet.create({
 
 const mapStateToProps = (state) => {
   return {
-    loading: state.general.isLoading,
   };
 };
 
